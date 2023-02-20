@@ -34,7 +34,7 @@ In the first suggestion it created the cell based on the data model `Movie` that
 
 https://user-images.githubusercontent.com/97149381/220018212-47ec1ab6-1c95-4d64-9e5d-9bb91a87b4f2.mov
 
-I asked Copilot to fetch movies from the give API. It was able to successfully fetch the movies. It has written a line to decode the data from `Movie`, but I had to make some changes manually to 'Movie' to make it decodable.
+I asked Copilot to fetch movies from the given API. It was able to successfully fetch the movies. It has written a line to decode the data from `Movie`, but I had to make some changes manually to 'Movie' to make it decodable.
 
 ## Calling the API
 
@@ -42,7 +42,7 @@ https://user-images.githubusercontent.com/97149381/220021560-87a6942e-4195-456c-
 
 
 
-By now Copilot has scanned all the files and it was able to predict what I would do next. It had suggested to call the API just by entering new line.
+By now Copilot has scanned all the files and it was able to predict what I would do next. Just after entering the new line it was able to suggest fetching of movies from API.
 
 
 After spending some time refactoring and debugging, I was able to run the app.
@@ -71,13 +71,12 @@ Copilot can not only create new code but it can aslo refactor the old code. In t
   Since we provide the description the code in the comment, it helps others to easily understand the code.
 
 ## Disadvantages
-- **It's not alway accurate**:
-  Copilot doesn't give the right suggestion always. Sometimes it cannot understand the instructions given.
+- **It's not always necessarily accurate or latest**:
+  Copilot doesn't give the right suggestion always. Sometimes it cannot understand the instructions given. Also the suggestions could not be upto date.
 - **Need to wait for suggestions**:
   We need to wait 2 to 6 seconds after wrting the description of the code to get suggestions which can be annoying.
-- **Need more time in debugging**:
-  Since we don't write every line of the code using Copilot it is difficult to find the bug.
-- We may wirte code without understanding what exactly it is doing. Which may lead to bugs.
+- **Potentially it could introduce bugs**:
+   We may use code without understanding what exactly it is doing. Which may lead to bugs.
 
 # Conclusion
 Copilot helped me to reduce the time required to write and increase the productivity. Copilot is awesome but there a few disadvantages that cannot be overlooked. Copilot can aslo suggests code that has security flaw and we have the tendency to accept the suggestion without checking the code. Also overtime we would get lazy using Copilot but putting those aside Copilot can be a great helping hand and learning partner.
