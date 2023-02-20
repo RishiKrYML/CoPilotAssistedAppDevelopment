@@ -57,25 +57,24 @@ https://user-images.githubusercontent.com/97149381/220023218-ef67a0b7-5dd5-41df-
 
 Copilot can not only create new code but it can aslo refactor the old code. I the above example I tried the chage the completion handler and it was able to regenerate the whole function using the updated completion handler.
 
-## Copilot's pros and cons 
-# Advantages:
-- Boilerplate code:
+# Copilot's pros and cons 
+## Advantages:
+- **Boilerplate code**:
   It can suggest the boilerplate code quickly which can save the time of switching between code and stackoverflow.
-- Quick snippets:
+- **Quick snippets**:
   It can provide the code snippets while writing the code which make the typing of the code faster.
-- Learns from local code:
-  Copilot not only learn from public code but it can also analyze and learn from local code that we have written. It save the time of copying the already  
-  written code and pasting it.
-- Helps in Solving the problem:
+- **Learns from local code**:
+  Copilot not only learn from public code but it can also analyze and learn from local code that we have written. It save the time of copying the already written code and pasting it.
+- **Helps in Solving the problem**:
   Copilot suggestions sometimes helps in solving the problem. I can analyze based on the funtion name and provide the solution.
-- Increased comments in the code:
+- **Increased comments in the code**:
   Since we provide the description the code in the comment, it helps others to easily understand the code.
 
-# Disadvantages
-- It's not alway accurate:
+## Disadvantages
+- **It's not alway accurate**:
   Copilot doesn't give the right suggestion always. Sometimes it cannot understand the instructions given.
-- Need to wait for suggestions:
+- **Need to wait for suggestions**:
   We need to wait 2 to 6 seconds after wrting the description of the code to get suggestions which can be annoying.
-- Need more time in debugging:
+- **Need more time in debugging**:
   Since we don't write every line of the code using Copilot it is difficult to find the bug.
 - We may wirte code without understanding what exactly it is doing. Which may lead to bugs.
