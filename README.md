@@ -55,7 +55,7 @@ https://user-images.githubusercontent.com/97149381/220022601-a2ee44a7-8e20-4c5f-
 
 https://user-images.githubusercontent.com/97149381/220023218-ef67a0b7-5dd5-41df-8bb7-77deddc465d4.mov
 
-Copilot can not only create new code but it can aslo refactor the old code. I the above example I tried the chage the completion handler and it was able to regenerate the whole function using the updated completion handler.
+Copilot can not only create new code but it can aslo refactor the old code. In the above example I tried to change the completion handler and it was able to regenerate the whole function using the updated completion handler.
 
 # Copilot's pros and cons 
 ## Advantages:
@@ -66,7 +66,7 @@ Copilot can not only create new code but it can aslo refactor the old code. I th
 - **Learns from local code**:
   Copilot not only learn from public code but it can also analyze and learn from local code that we have written. It save the time of copying the already written code and pasting it.
 - **Helps in Solving the problem**:
-  Copilot suggestions sometimes helps in solving the problem. I can analyze based on the funtion name and provide the solution.
+  Copilot suggestions sometimes helps in solving the problem. It can analyze based on the funtion name and provide the solution.
 - **Increased comments in the code**:
   Since we provide the description the code in the comment, it helps others to easily understand the code.
 
