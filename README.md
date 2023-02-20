@@ -78,3 +78,7 @@ Copilot can not only create new code but it can aslo refactor the old code. I th
 - **Need more time in debugging**:
   Since we don't write every line of the code using Copilot it is difficult to find the bug.
 - We may wirte code without understanding what exactly it is doing. Which may lead to bugs.
+
+# Conclusion
+Copilot helped me to reduce the time required to write and increase the productivity. Copilot is awesome but there a few disadvantages that cannot be overlooked. Copilot can aslo suggests code that has security flaw and we have the tendency to accept the suggestion without checking the code. Also overtime we would get lazy using Copilot but putting those aside Copilot can be a great helping hand and learning partner.
+
