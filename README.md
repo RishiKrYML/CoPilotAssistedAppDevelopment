@@ -15,31 +15,31 @@ Xcode doesn't have integration of the copilot. But copilot can be used in VSCode
 
 https://user-images.githubusercontent.com/97149381/220015011-ac0b4399-3ce3-4ce6-a8bf-963a3beac73b.mov
 
-The Copilot was easily able to create the data model with the given properties. It can also create some random properties based on file name if we don't define the properties.
-It can detect the data type based on name of property. In the above code we can see that it identified the datatype of `id` as `Int`.
+The Copilot was easily able to create the data model with the given properties. It can also create some random properties based on the file name if we don't define the properties.
+It can detect the data type based on the name of the property. In the above code, we can see that it identified the datatype of `id` as `Int`.
 
 ## Creating a List to display movie list using table view.
 
 
 https://user-images.githubusercontent.com/97149381/220015698-02231c9a-2684-4685-a833-fb3eabc4d550.mov
 
-While creating a variable to store the list of movies, we can see that Copilot suggested the array of 'Movie'. The 'Movie' was created in separate file. It was able to scan the files other than the current one.
-It suggested the boilerplate required for creating the table view. Using this I was able create a table view quickly.
+While creating a variable to store the list of movies, we can see that Copilot suggested the array of 'Movie'. The 'Movie' was created in a separate file. It was able to scan files other than the current one.
+It suggested the boilerplate required for creating the table view. Using this I was able to create a table view quickly.
 
 ## Creating a cell for table view.
 
 
 https://user-images.githubusercontent.com/97149381/220016739-7e653f1e-245e-4482-be5a-aece0b1aee25.mov
 
-With just one line comment it was able create whole class to display movie title and poster.
-In the first suggestion it created the cell based on the data model `Movie` that we have created earlier. Then I have modified the comment to take two parameters title and posterImage instead of `Movie . It was able to change the code immediately with updated parameters.
+With just one line comment it was able to create a whole class to display movie title and poster.
+In the first suggestion, it created a cell based on the data model `Movie` that we created earlier. Then I modified the comment to configure the cell using two parameters title and posterImage instead of `Movie`. It was able to update the code immediately according to the comment..
 
 ## Creating a API to fetch movies
 
 
 https://user-images.githubusercontent.com/97149381/220018212-47ec1ab6-1c95-4d64-9e5d-9bb91a87b4f2.mov
 
-I asked Copilot to fetch movies from the given API. It was able to successfully fetch the movies. It has written a line to decode the data from `Movie`, but I had to make some changes manually to 'Movie' to make it decodable.
+Then I asked Copilot to fetch movies from the given API. It was able to successfully fetch the movies. It has also written code to decode the data from `Movie`, but I had to make some changes manually to 'Movie' to make it decodable.
 
 ## Calling the API
 
@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/97149381/220021560-87a6942e-4195-456c-
 
 
 
-By now Copilot has scanned all the files and it was able to predict what I would do next. Just after entering the new line it was able to suggest fetching of movies from API.
+By now Copilot has scanned all the files and it was able to predict what I would do next. Just after entering the new line, it suggested to fetch movies from API.
 
 
 After spending some time refactoring and debugging, I was able to run the app.
@@ -60,7 +60,7 @@ https://user-images.githubusercontent.com/97149381/220022601-a2ee44a7-8e20-4c5f-
 
 https://user-images.githubusercontent.com/97149381/220023218-ef67a0b7-5dd5-41df-8bb7-77deddc465d4.mov
 
-Copilot can not only create new code but it can aslo refactor the old code. In the above example I tried to change the completion handler and it was able to regenerate the whole function using the updated completion handler.
+Copilot can not only create new code but it can also refactor the old code. In the above example, I tried to change the completion handler and it was able to modify the function according to the updated completion handler.
 
 # 2. Creating a 'Show List of USER from API' Android app using Github Copilot
 Fortunately Copilot integration is very easy in Android Studio. We just need to install the plugin and we are good to go. Copilot is compatible with all JetBrain IDEs.
@@ -105,5 +105,5 @@ As this application was build is in kotlin and kotlin being the fairly new langu
   GitHub Copilot works best when you divide your code into small functions, use meaningful names for functions parameters, and write good docstrings and comments as you go.
 
 # Conclusion
-Copilot helped me to reduce the time required to write and increase the productivity. Copilot is awesome but there a few disadvantages that cannot be overlooked. Copilot can aslo suggests code that has security flaw and we have the tendency to accept the suggestion without checking the code. Also overtime we would get lazy using Copilot but putting those aside Copilot can be a great helping hand and learning partner.
+Copilot helped us to reduce the time required to write code and increase productivity. Copilot is awesome but there are a few disadvantages that cannot be overlooked. Copilot can also suggest code that has security flaws and we have the tendency to accept the suggestion without checking the code. Also over time, we would get lazy using Copilot but putting those aside Copilot can be a great helping hand and learning partner.
 
