@@ -1,5 +1,6 @@
 # Objective
 As GitHub Copilot for Business is now available, we wanted to explore the tangible effect on how much it can help devs. Below we have documented our journey and our thoughts on its usefulness, advantages and disadvantages.
+
 This is a PoC / Exploration done by Madan (madan.ar@ymedialabs.com) for iOS app development and Rishi (rishi.kumar@ymedialabs.com) for Android app development, at YML. 
 
 # Creating a Movie List app in swift using Github Copilot
