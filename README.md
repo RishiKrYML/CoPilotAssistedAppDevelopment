@@ -3,7 +3,7 @@ As GitHub Copilot for Business is now available, we wanted to explore the tangib
 
 This is a PoC / Exploration done by Madan (madan.ar@ymedialabs.com) for iOS app development and Rishi (rishi.kumar@ymedialabs.com) for Android app development, at YML. 
 
-# Creating a Movie List app in swift using Github Copilot
+# 1. Creating a Movie List app in swift using Github Copilot
 
 GitHub Copilot is an in-editor extension for software development that makes suggestions to you as you code, and it is powered by network language model called Codex which was trained on public code repositories on GitHub.
 
@@ -62,10 +62,13 @@ https://user-images.githubusercontent.com/97149381/220023218-ef67a0b7-5dd5-41df-
 
 Copilot can not only create new code but it can aslo refactor the old code. In the above example I tried to change the completion handler and it was able to regenerate the whole function using the updated completion handler.
 
-# Creating a 'Show List of USER from API' Android app using Github Copilot
+# 2. Creating a 'Show List of USER from API' Android app using Github Copilot
 Fortunately Copilot integration is very easy in Android Studio. We just need to install the plugin and we are good to go. Copilot is compatible with all JetBrain IDEs.
 After installing the plugin we need to login to Github. After login we can see the Copilot icon in the right side of the editor.
 Once copilot is installed and successfully logged in we can start using it right away.
+
+![image](https://user-images.githubusercontent.com/96165741/220276060-90953e06-3f87-479a-b6a7-6bfd21623969.png)
+
 
 Journey of code creation using Copilot is very much similar to the one we have seen above in Swift. Copilot can create the data model, compose view ui, API call mechanisms , adding dependencies etc.
 If you see codes inside the 'AndroidAppCode' folder then u will find more than 95% of code was generated via Copilot./
